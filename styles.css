@@ -1,0 +1,131 @@
+/* .vertical {
+	white-space: nowrap;
+	writing-mode: tb-rl;
+} */
+.nums {
+	font-size: 10px;
+	font-weight: bold;
+	border-left: 2px;
+}
+
+.ca_nums {
+	color: white;
+	text-align: right;
+	padding-right: 2px;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+
+.sga {
+	background-color: #eee;
+}
+
+.dnf {
+	background-color: black;
+}
+
+.one {
+	background-color: black;
+}
+
+td {
+	text-align: center;
+	font-size: 0.45em;
+	width: 1vw;
+}
+
+#grid {
+	align-items: center;
+	margin: auto;
+}
+
+#resultTable {
+	height: 70vh;
+	padding-left: 10px;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+html {
+	background-color: #eee;
+	font-family: sans-serif;
+	align-items: center;
+}
+
+/* .letter-column {
+	width: 20px;
+} */
+
+td.axisLabel {
+	font-size: 13px;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* td#vAxisLabel {
+	padding-top: 12px;
+} */
+
+.vertical {
+	white-space: nowrap;
+	writing-mode: vertical-lr;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	margin-bottom: 20px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+	padding: 20px 20px;
+
+	width: 100%;
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .47);
+	background-color: #008000;
+}
+
+#title {
+	font-size: 2em;
+	color: #eee;
+}
+
+footer {
+	align-items: center;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	display: flex;
+	padding-top: 30px;
+	color: #777;
+}
+
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider.round {
+	border-radius: 34px;
+  }
+  
+  .slider.round:before {
+	border-radius: 50%;
+  }

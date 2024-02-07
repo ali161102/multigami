@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multigami</title>
+    <link rel="icon" type="image/x-icon" href="./favico.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="./data/counts_240202.js" defer></script>
+    <script src="./myattempts.js" defer></script>
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div id="header">
+        <h3 id="title">Multigami</h3>
+    </div>
+    
+    <div id="grid">
+        <table id="resultTable">
+            <tbody>
+                <tr id="labels">
+                    <td id="xAxisLabel" class="axisLabel" colspan="69">solved</td>
+                </tr>
+                <td id="yAxisLabel" class="axisLabel" rowspan="67">
+                    <div class="vertical">attempted</div>
+                </td>
+                <tr>
+                    <td class="nums">1</td>
+                    <td class="nums">2</td>
+                    <td class="nums">3</td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+    <!-- <div id="toggles"> [ ] TODO: v1.1
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round">Toggle result text</span>
+          </label>
+    </div> -->
+    <footer>
+        <h6>Based on the 07/02/24 results export</h6>
+    </footer>
+</body>
+</html>
