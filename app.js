@@ -65,19 +65,7 @@ for (let ca = 2; ca <= lim_a; ca++) {
 
 console.log(tableBody)
 
-
-
-// for (let attempt of myAttempts) {
-//     console.log(attempt)
-//     let tile = document.getElementById(attempt);
-//     if (tile) {
-//         tile.classList.add("achieved");
-//     }
-//     console.log(tile)
-// }
-
 let gradientcolor = 0;
-//gradientcolor = d3.scaleLinear().domain([0, 100, 1000]).range(["#008000", "#00d000", "#00ff00"]);
 
 for (let outcome in counts) {
     let attempted = outcome%100;
@@ -88,20 +76,12 @@ for (let outcome in counts) {
     let tile = document.getElementById(result);
     if (tile) {
         tile.classList.add("acheived");
-
-        //tile.innerText = result;
-        /////////// number of occurrences text
-        //tile.innerText = counts[outcome]
-
-
         if (gradientcolor) {
             tile.style.backgroundColor = gradientcolor(counts[outcome])
         } else {
             tile.style.backgroundColor = "#008000";
         }
     }
-
-
 }
 
 let resultText = document.getElementById("resultText")
@@ -118,15 +98,7 @@ function handleResultText() {
         let tile = document.getElementById(result);
         if (tile) {
             tile.classList.add("acheived");
-    
-            //tile.innerText = result;
-            /////////// number of occurrences text
             tile.innerText = counts[outcome]
-    
         }
-    
-    
-    }f
-
-
+    }
 }
